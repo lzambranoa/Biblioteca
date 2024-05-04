@@ -1,0 +1,16 @@
+{
+  "libros": [
+    {
+      "id": "5f18",
+      "nombre": "la voragines",
+      "autor": "desconocido",
+      "publicacion": 1980
+    },
+    {
+      "id": "709c",
+      "nombre": "habitos atomicos",
+      "autor": "leonardo",
+      "publicacion": 1945
+    }
+  ]
+}
