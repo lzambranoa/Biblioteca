@@ -1,16 +1,22 @@
 {
   "libros": [
     {
-      "id": "5f18",
-      "nombre": "la voragines",
-      "autor": "desconocido",
-      "publicacion": 1980
+      "id": "008e",
+      "nombre": "La cenicienta",
+      "autor": "disney",
+      "publicacion": 2000
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "0cc6",
+      "email": "carol@correo.com",
+      "password": "carol123"
     },
     {
-      "id": "709c",
-      "nombre": "habitos atomicos",
-      "autor": "leonardo",
-      "publicacion": 1945
+      "id": "7c75",
+      "email": "carol@correo.com",
+      "password": "carol123"
     }
   ]
 }

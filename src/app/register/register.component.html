@@ -6,19 +6,18 @@
                     <img class="img-fluid" src="../../../../assets/img/libros.jpg" alt="">
                 </figure>
             </div>
-            <form class="col-sm-12 col-lg-6 p-5">
+            <form class="col-sm-12 col-lg-6 p-5" (ngSubmit)="registrarUsuario()">
                 <fieldset>
                     <legend>Registrarse</legend>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                      <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="usuario.email" >
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <input type="password" class="form-control" id="exampleInputPassword1" name="password" [(ngModel)]="usuario.password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" (click)="registrarUsuario()">Registrarse</button>
                 </fieldset>
               </form>
         </div>
